@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.container .head {
+  text-align: center;
+}
+
+.container .message {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
+.container .message .from {
+  flex-grow: 0;
+  width: 80px;
+}
+
+
+.container .message .content{
+  flex-grow: 1;
+}
+
+.container .inputs {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+}
+
