@@ -23,3 +23,5 @@ But it can act as a kind of webSockect module.
 
 ### result
 
+![image](https://github.com/bright2227/gunjs-chat-practice/blob/main/img/chat.gif)
+
